@@ -7,21 +7,21 @@
     android:background="#000"
     tools:context="com.example.root.projecto.MainActivity">
 
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="100dp">
+        android:layout_height="150dp">
 
         <com.example.root.projecto.GifView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
             android:id="@+id/gef_view"/>
 
         <TextView
-            android:text="info ..."
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
             android:id="@+id/textinfo"/>
+
     </LinearLayout>
 
     <ScrollView
